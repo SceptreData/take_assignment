@@ -741,16 +741,17 @@ h2 {
   bottom: 56px;
 }
 
-.tile-layout i {
-  font-size: 1.25rem;
+.fa-heart {
   position: absolute;
   bottom: 45px;
   right: 44px;
+  width: 2ch;
 }
 
-.tile-layout i:hover {
-  color: tomato;
+.fa-heart:hover {
+  fill: tomato;
 }
+
 
 /* 
     Four Column Layout 
@@ -904,10 +905,16 @@ footer {
   background: white;
   transition: 0.3s;
 }
+svg {
+  fill: white;
+  width: 1rem;
+}
+.social-icon-svg {
+  fill: #192431;
+}
 
-.social-icons i {
-  font-size: 1.25rem;
-  color: #192431;
+.social-icon-svg .fa-facebook-f {
+  width: 0.5rem;
 }
 .social-icons a,
 .social-icons a:visited {
