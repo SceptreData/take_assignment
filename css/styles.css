@@ -958,9 +958,12 @@ svg {
 }
 
 .input-container button:hover {
-  color: gold;
   transition: 0.2s;
   box-shadow: 0 0 5px grey;
+}
+
+.check-icon-svg:hover {
+  fill: gold;
 }
 
 .stay-in-touch-container h4 {
